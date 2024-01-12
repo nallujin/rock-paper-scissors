@@ -1,0 +1,21 @@
+html {
+    font-size: 2vw;
+    background-color: lightgreen;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 32vw;
+    height: 18vw;
+    border: #000 dashed 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #fff;
+}
