@@ -16,42 +16,12 @@ input[type="text"] {
     /* Your default styling here */
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #cacaca;
     cursor: default;
 }
 
 /* Remove the outline when the input field is focused */
 input[type="text"]:focus {
     outline: none;
-}
-
-.title {
-    font-family: Arial, sans-serif;
-    font-weight: bolder;
-    color: #000;
-    font-size: 48px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-}
-
-.computer-box {
-    display: flex;
-}
-
-#c-score {
-    width: 50px;
-}
-.computer-box>p {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-}
-
-
-#c-value {
-    width: 100px;
 }
 
 .container {
@@ -64,15 +34,3 @@ input[type="text"]:focus {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
-
-
-button {
-    background: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-
-
