@@ -1,4 +1,8 @@
-document.querySelector("input").readOnly = true;
+// Intention of this block is to make all text input field on read-only mode
+const allInputs = document.querySelectorAll("input");
+allInputs.forEach(input => {
+    input.readOnly = true;
+});
 
 // Variable assignment for game lives and limit
 const MAXGAME = 5;
