@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Rock, Paper, Scissors</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div class="container">
+
+  <h2 class="title">TOP: RPS</h2>
+
+  <div class="round-display">
+    <!--  Displays current round count  -->
+    <p>Round</p>
+    <div id="rounds">1/5</div>
+  </div>
+
+  <div class="display-here">
+    <!--  Displays Player & Computer's score and chosen hand  -->
+    <div class="player-board">
+      <div id="p-score">0</div>
+      <p>You</p>
+      <div id="p-value"></div>
+    </div>
+    <div class="computer-board">
+      <div id="c-score">0</div>
+      <p>Computer</p>
+      <div id="c-value"></div>
+    </div>
+  </div>
+
+  <div class="result-box">
+    <div id="result">You Lose! Rock beats Scissors.</div>
+  </div>
+
+  <div class="player-hand1">
+    <!--  Represents Player's chosen hand  -->
+    <!--  When the game has ended (5 turns passed), this div's
+          children will be transformed into a "Play again?" button.-->
+    <button type="button" class="p-ro">Rock</button>
+    <button type="button" class="p-pa">Paper</button>
+    <button type="button" class="p-sc">Scissors</button>
+  </div>
 
 </div>
 <script src="script.js"></script>
