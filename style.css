@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+header > * {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.buttons,
+.results,
+.scores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: lightseagreen;
+  border: 0;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.scores>p:nth-child(1){
+  border: 2px #000 solid;
+  padding: 10px;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+}
