@@ -6,9 +6,29 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Rock Paper Scissors - TOP</title>
-  <script defer src="script.js" ></script>
+  <link rel="stylesheet" href="style.css">
+<!--  <script defer src="script.js" ></script>-->
 </head>
 <body>
-
+  <div class="container">
+    <header>
+      <h1>Rock Paper Scissors Game</h1>
+      <h2>Click on the buttons below to play the game against the Computer</h2>
+    </header>
+    <div class="buttons">
+      <button type="button" id="brock">Rock</button>
+      <button type="button" id="bpaper">Paper</button>
+      <button type="button" id="bscissors">Scissors</button>
+    </div>
+    <div class="results">
+      <p>Level Results:</p>
+      <div class="show-here"></div>
+    </div>
+    <div class="scores">
+      <p>Score</p>
+      <p>You: <span class="p-score">0</span></p>
+      <p>Computer: <span class="c-score">0</span></p>
+    </div>
+  </div>
 </body>
 </html>
