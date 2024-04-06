@@ -1,13 +1,30 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-}
-
 header > * {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+button {
+  background-color: #20B2AAFF;
+  border: 0;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1A9999FF
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .buttons,
@@ -24,18 +41,16 @@ header > * {
   gap: 10px;
 }
 
-button {
-  background-color: lightseagreen;
-  border: 0;
-  padding: 10px;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 5px;
+.results {
+  display: flex;
+  flex-direction: column;
 }
 
 .scores>p:nth-child(1){
   border: 2px #000 solid;
   padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .scores {
