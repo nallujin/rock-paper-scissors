@@ -1,3 +1,3 @@
 # Rock Paper Scissors PROJECT
-Project source: <a href="https://www.theodinproject.com/lessons/foundations-rock-paper-scissors">The Odin Project: Rock Paper Scissors</a>
-Will be recreated soon.
+Project source: <a href="https://www.theodinproject.com/lessons/foundations-rock-paper-scissors">The Odin Project: Rock Paper Scissors</a>\
+Recreated in 2024.
